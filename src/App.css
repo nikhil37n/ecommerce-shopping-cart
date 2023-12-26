@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #ccc;
+}
+
+.login-form {
+    width: 310px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    padding: 20px;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.error{
+    font-size: 12px;
+    color: red;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #3559E0;
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar span {
+    margin-left: 10px;
+}
+
+.searchbar {
+    margin-left: 5%;
+    width: 25%;
+    height: 30px;
+    background: whitesmoke;
+    border-radius: 2px;
+}
+
+.searchIcon {
+    width: 20%;
+    color: grey;
+    margin: 0 5px;
+}
+
+.searchbar input {
+    width: 90%;
+    height: 100%;
+    padding: 5px;
+    background: whitesmoke;
+    outline: none;
+    color: #333;
+}
+
+.slicj-prev {
+    left: 25px;
+}
+
+.slick-next {
+    right: 25px;
+}
+
+.card-container, .categories-container {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    padding: 10px;
+    margin: 25px;
+}
+
+.card-container h1 {
+    margin-bottom: 10px;
+}
+
+.card-wrapper {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.card-wrapper img{
+    width: 129px;
+    height: 200px;
+}
+
+.categories-container img {
+    width: 64px;
+    height: 64px;
+    margin-top: 10px;
+}
